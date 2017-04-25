@@ -19,8 +19,9 @@ const Menu = (props)=>{
     return(
         <div id="menu" className="menu" onClick={activeTag}>
              
-            <Link to="/About" > About</Link> 
+            <Link to="/About"> About</Link> 
             <Link to="/Home"> Home</Link>
+            <Link to="comments">Comments</Link>
         </div>);
 }
 

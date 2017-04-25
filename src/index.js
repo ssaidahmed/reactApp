@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Home from './Home';
+import Comments from './comments'
 import './index.css';
 import Layout from './Layout';
 import About from './About';
@@ -11,8 +12,9 @@ ReactDOM.render(
   
     <Router  history={hashHistory}>
       <Route path="/" component={Layout}>
-        <Route path="/Home" component={Home}/>
-        <Route path="/About" component={About}/>
+        <Route path="/home" component={Home}/>
+        <Route path="/about" component={About}/>
+        <Route path="/comments" component={Comments}/>
       </Route>  
     </Router>,
     document.getElementById('root')
