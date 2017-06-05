@@ -28,7 +28,7 @@ handleChange=(event)=>{
 
  
 addEmploy=(event)=>{
-    alert('form')
+    
     var objTour={};
     objTour.id = event.target.id.value;
     objTour.firstLastName = event.target.firstLastName.value;

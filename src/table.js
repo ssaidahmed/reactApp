@@ -30,7 +30,7 @@ class Tablewor extends Component{
         
     }
     addWorker = (value)=>{
-    alert('tabless')
+    
     if(value.firstLastName===''){
       alert('поля не должны быть пустыми!')// можно было сделать и для других полей,но я думаю для тренировки это не обязательно 
       return;
