@@ -208,7 +208,7 @@ footer,.layout:after{
     bottom: 0;
 }
 
- button {
+ #buttonnn {
     opacity: 0.5;
     position: absolute;
     background: url(/fly.svg) 50% no-repeat;
@@ -228,11 +228,7 @@ button:focus {
 button:hover{
     opacity: 1;
 }
-/*#comments{
-    position: absolute;
-    bottom: 80px;
-    z-index: 5;
-}*/
+/**/
 
 
 div.speech {
@@ -279,4 +275,29 @@ padding:5px;
     transform: rotate(-50deg);
     bottom:-11px;
     
+}
+.text{
+    text-align: center;
+}
+table {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+border-collapse: collapse;
+text-align: center;
+}
+th, td:first-child {
+background: #AFCDE7;
+color: white;
+padding: 10px 20px;
+}
+th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+td {
+background: #D8E6F3;
+}
+th:first-child, td:first-child {
+text-align: left;
 }

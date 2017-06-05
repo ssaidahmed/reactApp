@@ -90,7 +90,7 @@ const Comments = function(props){
             <div className="im-page--chat-input">
                     
                     <div className="input--txt-wrap" >
-                        <button id="button" type="button" onClick={submitComments}  >
+                        <button id="buttonnn" type="button" onClick={submitComments}  >
                             
                         </button>    
                         
