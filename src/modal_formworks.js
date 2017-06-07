@@ -60,6 +60,7 @@ class Workform extends React.Component {
          this.openModal();
        } 
   }
+  
   closeModal() {
     this.setState({modalIsOpen: false});
   }
