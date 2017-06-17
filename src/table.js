@@ -83,9 +83,9 @@ class Tablewor extends Component{
     
     
         if(data.size > 0){
-            var i=0;
+           
             for(let item of data.values()){
-                arr.push(<tr key={i++}>
+                arr.push(<tr key={item.id}>
                 <td className='text'>{item.id}</td>
                 <td className='text'>{item.firstLastName}</td>
                 <td className='text'>{item.position}</td>
